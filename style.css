@@ -1,0 +1,18 @@
+* {
+    color: rgb(54, 49, 49);
+    background-color: rgb(246, 213, 244);
+    font-family: "Brush Script MT", "Lucida Handwriting", cursive;
+    text-align: center;
+}
+
+ul, ol {
+    display: inline-block;
+    text-align: right;
+    list-style-position: inside;
+    font-weight: 700;
+}
+
+h1, h3 {
+    background-color: gray;
+    color: white;
+}
