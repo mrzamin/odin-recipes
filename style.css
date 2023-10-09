@@ -1,8 +1,9 @@
 * {
     color: rgb(54, 49, 49);
-    background-color: rgb(246, 213, 244);
     font-family: "Brush Script MT", "Lucida Handwriting", cursive;
     text-align: center;
+    border-style: border-box;
+    background-color: rgb(187, 180, 180);
 }
 
 ul, ol {
@@ -13,6 +14,56 @@ ul, ol {
 }
 
 h1, h3 {
-    background-color: gray;
     color: white;
+    background-color: pink;
+}
+
+.subtitle {
+    height: 60px;
+    width: 500px;
+    padding: 8px;
+    margin: 0px;
+}
+
+.title {
+    height: 60px;
+    width: 500px;
+    padding: 8px;
+    margin: 0px;
+}
+
+.first-section {
+    display: inline-block;
+    padding: 8px;
+    margin: 0px;
+    border: 0px;
+}
+
+img {
+    display: block;
+    width: 515px;
+    margin: none;
+}
+
+.recipe-list {
+    display: block;
+}
+
+.recipe-1, .recipe-2, .recipe-3 {
+    display: inline-block;
+    background-color: white;
+    padding: 20px;
+    margin: 8px 2px 8px 2px;
+}
+
+span {
+    background-color: white;
+}
+
+em {
+    background-color: pink;
+}
+
+img {
+    margin: 0 auto;
 }
